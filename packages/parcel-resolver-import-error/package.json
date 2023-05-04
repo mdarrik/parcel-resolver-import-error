@@ -1,0 +1,21 @@
+{
+  "name": "parcel-resolver-import-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parcel-resolver-import-error.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/plugin": "^2.8.3"
+  },
+  "devDependencies": {
+    "@11ty/webc": "^0.11.4"
+  },
+  "engines": {
+    "parcel": ">2.0.0"
+  }
+}

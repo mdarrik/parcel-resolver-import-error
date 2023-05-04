@@ -1,0 +1,20 @@
+{
+  "name": "parcel-resolver-import-error-root",
+  "version": "1.0.0",
+  "description": "Repro of a simple Parcel resolver where dynamic imports fail",
+  "main": "index.js",
+  "workspaces": [
+    "packages/**",
+    "site/"
+  ],
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-resolver-import-error": "^1.0.0"
+  }
+}
